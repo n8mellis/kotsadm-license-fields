@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<h1>
+    Your License
+</h1>
+<ul>
+    <li>Release channel: <%= license.release_channel %></li>
+    <li>License type: <%= license.license_type %></li>
+</ul>
+<h2>Entitlements</h2>
+<ul>
+    <% license.fields.forEach(field => { %>
+        <li><%= field.title %>: <%= field.value %></li>
+    <% })%>
+</ul>
+</body>
+</html>

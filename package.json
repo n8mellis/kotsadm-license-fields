@@ -1,0 +1,25 @@
+{
+  "name": "kotsadm-license-fields",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n8mellis/kotsadm-license-fields.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n8mellis/kotsadm-license-fields/issues"
+  },
+  "homepage": "https://github.com/n8mellis/kotsadm-license-fields#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
