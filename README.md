@@ -1,0 +1,1 @@
+# kotsadm-license-fields
